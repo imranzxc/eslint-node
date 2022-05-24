@@ -1,0 +1,32 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.6.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb/base",
+      "prettier"
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-unused-wars": "warn"
+    }
+  },
+  "dependencies": {
+    "mongoose": "^6.3.4"
+  }
+}
